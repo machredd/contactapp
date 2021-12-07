@@ -14,11 +14,14 @@
 	<artifactId>contact-application-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>contact-application-spring</name>
-	<packaging>war</packaging>
+	
 	<description>Demo project for Spring Boot AOP</description>
 	<properties>
-		<java.version>11</java.version>
-	</properties>
+<java.version>1.8</java.version>
+<maven.compiler.source>1.8</maven.compiler.source>
+<maven.compiler.target>1.8</maven.compiler.target>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
