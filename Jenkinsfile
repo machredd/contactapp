@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('Checkout'){
             steps{
-                git branch: 'master', url: 'https://github.com/shiwaniraghav123/newcontactapp.git'
+                git branch: 'master', url: 'https://github.com/machredd/contactapp.git'
             }
         }
         stage('Build'){
