@@ -26,7 +26,7 @@ pipeline{
         stage('Deploy'){
       
             steps{
-                 bat 'Java -jar C:/ProgramData/Jenkins/workspace/contactapppipeline/target/contact-application-spring-0.0.1-SNAPSHOT.jar'
+                 bat 'Java -jar C:/programdata1/Jenkins/.Jenkins/workspace/contactapppipeline/target/contact-application-spring-0.0.1-SNAPSHOT/WEB-INF/lib.jar'
                 }
         }
     }
